@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    color: black;
+    outline: none;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+header{
+    height: 600px;
+    width: 100vw;
+    border-bottom: 2px solid #dddddd;
+    text-align: center;
+    height: 60px;
+    background-color: #007bff;
+    
+}
+.row{
+    width: 100%;
+}
+
+.admin-content{
+    padding-top: 0px;
+    display: flex;
+}
+.admin-content-left{
+    background-color: #ddd;
+    width: 20%;
+    height: 100vh;
+    padding: 12px 0 0 12px ;
+}
+.admin-content-left > ul > li > a{
+        font-weight: bold;
+}
+.admin-content-left ul li{
+    margin: 6px 0;
+}
+.admin-content-left ul ul{
+    margin-left: 20px;
+}
+.admin-content-right{
+    width: 80%;
+    padding: 12px 0 0 12px;
+}
+.right-cartegory-add input{
+        height:30px;
+        width:200px;
+        padding-left: 12px;
+        margin-top: 20px;
+}
+.right-cartegory-add button{
+    display:block;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    background-color: pink;
+    border: none;
+    color: white;
+}
+.right-cartegory-add button:hover{
+    background-color: transparent;
+    border: 1px solid pink;
+    color: black;
+    transition: all 0.3s;
+
+}
+/* end Cartegory-add */
+
+
+/* ------------- Cartegory-List */
+.right-cartegory-list table{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.right-cartegory-list table tr th, td{
+    border: 1px solid #dddddd;
+}
+table{
+    border-collapse: collapse;
+}
+
+
+/* Product */
+.right-product-add h1{
+    margin-bottom: 12px;
+}
+.right-product-add input, select{
+    width: 200px;
+    height: 30px;
+    display: block;
+    margin: 20px 0px;
+    padding: 0px 12px;
+}
+.right-product-add label{
+    margin: 12px 0;
+}
+.right-product-add textarea{
+    width: 500px;
+    height:200px;
+    display: block;
+    padding: 0 12px;
+    margin: 12px 0px;
+}
+.right-product-add button{
+    display:block;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    background-color: pink;
+    border: none;
+    color: white;
+}
+.right-product-add button:hover{
+    background-color: transparent;
+    border: 1px solid pink;
+    color: black;
+    transition: all 0.3s;
+}
+/* End Product */
